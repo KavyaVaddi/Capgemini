@@ -98,7 +98,7 @@ public class AdminController {
 	}
 	
 	@GetMapping("/getWardDetails")
-	public List<Ward> getWardDetails(){
+	public  getWardDetails(){
 		return wservice.getAll();
 	}
 	
